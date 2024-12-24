@@ -44,11 +44,11 @@ window_effects:
 
   other_windows:
     border:
-      enabled: true
+      enabled: false
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: false
+      enabled: true
       style: 'square'
 
 window_behavior:
@@ -110,122 +110,122 @@ binding_modes:
 
 keybindings:
   - commands: ['focus --direction left']
-    bindings: ['num_lock+h', 'num_lock+left']
+    bindings: ['f24+h', 'f24+left']
   - commands: ['focus --direction right']
-    bindings: ['num_lock+l', 'num_lock+right']
+    bindings: ['f24+l', 'f24+right']
   - commands: ['focus --direction up']
-    bindings: ['num_lock+k', 'num_lock+up']
+    bindings: ['f24+k', 'f24+up']
   - commands: ['focus --direction down']
-    bindings: ['num_lock+j', 'num_lock+down']
+    bindings: ['f24+j', 'f24+down']
 
   - commands: ['move --direction left']
-    bindings: ['num_lock+shift+h', 'num_lock+shift+left']
+    bindings: ['f24+shift+h', 'f24+shift+left']
   - commands: ['move --direction right']
-    bindings: ['num_lock+shift+l', 'num_lock+shift+right']
+    bindings: ['f24+shift+l', 'f24+shift+right']
   - commands: ['move --direction up']
-    bindings: ['num_lock+shift+k', 'num_lock+shift+up']
+    bindings: ['f24+shift+k', 'f24+shift+up']
   - commands: ['move --direction down']
-    bindings: ['num_lock+shift+j', 'num_lock+shift+down']
+    bindings: ['f24+shift+j', 'f24+shift+down']
 
   - commands: ['resize --width -2%']
-    bindings: ['num_lock+u']
+    bindings: ['f24+u']
   - commands: ['resize --width +2%']
-    bindings: ['num_lock+p']
+    bindings: ['f24+p']
   - commands: ['resize --height +2%']
-    bindings: ['num_lock+o']
+    bindings: ['f24+o']
   - commands: ['resize --height -2%']
-    bindings: ['num_lock+i']
+    bindings: ['f24+i']
 
   - commands: ['wm-enable-binding-mode --name resize']
-    bindings: ['num_lock+r']
+    bindings: ['f24+r']
 
   - commands: ['wm-toggle-pause']
-    bindings: ['num_lock+shift+p']
+    bindings: ['f24+shift+p']
 
   - commands: ['toggle-tiling-direction']
-    bindings: ['num_lock+v']
+    bindings: ['f24+v']
 
   - commands: ['wm-cycle-focus']
-    bindings: ['num_lock+space']
+    bindings: ['f24+space']
 
   - commands: ['toggle-floating --centered']
-    bindings: ['num_lock+shift+space']
+    bindings: ['f24+shift+space']
 
   - commands: ['toggle-tiling']
-    bindings: ['num_lock+t']
+    bindings: ['f24+t']
 
   - commands: ['toggle-fullscreen']
-    bindings: ['num_lock+f']
+    bindings: ['f24+f']
 
   - commands: ['toggle-minimized']
-    bindings: ['num_lock+m']
+    bindings: ['f24+m']
 
   - commands: ['close']
-    bindings: ['num_lock+shift+q']
+    bindings: ['f24+shift+q']
 
   - commands: ['wm-exit']
-    bindings: ['num_lock+shift+e']
+    bindings: ['f24+shift+e']
 
   - commands: ['wm-reload-config']
-    bindings: ['num_lock+shift+r']
+    bindings: ['f24+shift+r']
 
   - commands: ['wm-redraw']
-    bindings: ['num_lock+shift+w']
+    bindings: ['f24+shift+w']
 
   - commands: ['shell-exec cmd']
-    bindings: ['num_lock+enter']
+    bindings: ['f24+enter']
 
   - commands: ['focus --next-active-workspace']
-    bindings: ['num_lock+s']
+    bindings: ['f24+s']
   - commands: ['focus --prev-active-workspace']
-    bindings: ['num_lock+a']
+    bindings: ['f24+a']
 
   - commands: ['focus --recent-workspace']
-    bindings: ['num_lock+d']
+    bindings: ['f24+d']
 
   - commands: ['focus --workspace 1']
-    bindings: ['num_lock+1']
+    bindings: ['f24+1']
   - commands: ['focus --workspace 2']
-    bindings: ['num_lock+2']
+    bindings: ['f24+2']
   - commands: ['focus --workspace 3']
-    bindings: ['num_lock+3']
+    bindings: ['f24+3']
   - commands: ['focus --workspace 4']
-    bindings: ['num_lock+4']
+    bindings: ['f24+4']
   - commands: ['focus --workspace 5']
-    bindings: ['num_lock+5']
+    bindings: ['f24+5']
   - commands: ['focus --workspace 6']
-    bindings: ['num_lock+6']
+    bindings: ['f24+6']
   - commands: ['focus --workspace 7']
-    bindings: ['num_lock+7']
+    bindings: ['f24+7']
   - commands: ['focus --workspace 8']
-    bindings: ['num_lock+8']
+    bindings: ['f24+8']
   - commands: ['focus --workspace 9']
-    bindings: ['num_lock+9']
+    bindings: ['f24+9']
 
   - commands: ['move-workspace --direction left']
-    bindings: ['num_lock+shift+a']
+    bindings: ['f24+shift+a']
   - commands: ['move-workspace --direction right']
-    bindings: ['num_lock+shift+f']
+    bindings: ['f24+shift+f']
   - commands: ['move-workspace --direction up']
-    bindings: ['num_lock+shift+d']
+    bindings: ['f24+shift+d']
   - commands: ['move-workspace --direction down']
-    bindings: ['num_lock+shift+s']
+    bindings: ['f24+shift+s']
 
   - commands: ['move --workspace 1', 'focus --workspace 1']
-    bindings: ['num_lock+shift+1']
+    bindings: ['f24+shift+1']
   - commands: ['move --workspace 2', 'focus --workspace 2']
-    bindings: ['num_lock+shift+2']
+    bindings: ['f24+shift+2']
   - commands: ['move --workspace 3', 'focus --workspace 3']
-    bindings: ['num_lock+shift+3']
+    bindings: ['f24+shift+3']
   - commands: ['move --workspace 4', 'focus --workspace 4']
-    bindings: ['num_lock+shift+4']
+    bindings: ['f24+shift+4']
   - commands: ['move --workspace 5', 'focus --workspace 5']
-    bindings: ['num_lock+shift+5']
+    bindings: ['f24+shift+5']
   - commands: ['move --workspace 6', 'focus --workspace 6']
-    bindings: ['num_lock+shift+6']
+    bindings: ['f24+shift+6']
   - commands: ['move --workspace 7', 'focus --workspace 7']
-    bindings: ['num_lock+shift+7']
+    bindings: ['f24+shift+7']
   - commands: ['move --workspace 8', 'focus --workspace 8']
-    bindings: ['num_lock+shift+8']
+    bindings: ['f24+shift+8']
   - commands: ['move --workspace 9', 'focus --workspace 9']
-    bindings: ['num_lock+shift+9']
+    bindings: ['f24+shift+9']
